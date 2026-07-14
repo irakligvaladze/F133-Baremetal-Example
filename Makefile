@@ -5,7 +5,7 @@ CFLAGS = -march=rv64imac -mabi=lp64 -mcmodel=medany \
 
 LDFLAGS = -T linker.ld
 
-PROJECT = emmc
+PROJECT = gpio
 
 SRCS = startup.s main.c 
  
