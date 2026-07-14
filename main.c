@@ -1,5 +1,6 @@
 #include "UART_hal.h"
 #include "GPIO_hal.h"
+#include "TIME_hal.h"
 #include "mini_stdio.h"
 
 UART_HandleTypeDef huart0;
